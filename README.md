@@ -1,16 +1,16 @@
-# continuedev.github.io
+# continue-landing-archive (inert — safe to delete)
 
-Redirect stub: https://continuedev.github.io/ → https://continue.dev/
+This repo is an empty archive and serves nothing. It briefly hosted the first
+static mirror of the continue.dev front page (2026-07-20, see git history)
+before Chad Metcalf's repos became canonical.
 
-The continue.dev sites are served by GitHub Pages from these repos:
+The live sites are:
 
 | Host | Repo |
 | --- | --- |
-| continue.dev | [`continue-home`](https://github.com/continuedev/continue-home) |
-| docs.continue.dev | [`continue`](https://github.com/continuedev/continue) (`docs-site/`, deployed by `.github/workflows/docs-gh-pages.yml`) |
-| blog.continue.dev | [`continue-blog`](https://github.com/continuedev/continue-blog) (Astro) |
+| https://continue.dev | [`continue-home`](https://github.com/continuedev/continue-home) |
+| https://docs.continue.dev | [`continue`](https://github.com/continuedev/continue) (`docs-site/`) |
+| https://blog.continue.dev | [`continue-blog`](https://github.com/continuedev/continue-blog) |
 
-This org-site repo exists only so the bare `continuedev.github.io` URL doesn't
-serve a stale duplicate of the homepage. It previously held the first static
-mirror of the front page (see git history) before `continue-home` became
-canonical.
+To delete this repo: Settings → Danger Zone → Delete, or
+`gh auth refresh -h github.com -s delete_repo && gh repo delete continuedev/continue-landing-archive --yes`
